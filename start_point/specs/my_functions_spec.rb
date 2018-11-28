@@ -45,14 +45,14 @@ class My_Functions < MiniTest::Test
     assert_equal( true, result )
   end
 
-  # def test_find_item_false
-  #   # arrange
-  #   houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
-  #   # act
-  #   result = find_item( houses, "Harkonnen" )
-  #   # assert
-  #   assert_equal( false, result )
-  # end
+  def test_find_item_false
+    # arrange
+    houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
+    # act
+    result = find_item( houses, "Harkonnen" )
+    # assert
+    assert_equal( false, result )
+  end
 
   ################################################################
 

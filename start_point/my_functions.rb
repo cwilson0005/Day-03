@@ -16,4 +16,5 @@ def find_item(array, item)
         return true
       end
   end
+  return false 
 end
