@@ -16,5 +16,9 @@ def find_item(array, item)
         return true
       end
   end
-  return false 
+  return false
+end
+
+def get_first_key(hash)
+  return hash.keys[0]
 end
